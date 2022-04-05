@@ -26,12 +26,15 @@
   <img src="https://media.giphy.com/media/6gYLzGYDrU4LlOxxnJ/giphy.gif" width="600"/>
 </div>
 
+---
+
 ### :man_technologist: Information about me :
 * I'm a Java Junior (maybe Middle) Developer.
 * I has writing plugins for Bukkit/BungeeCord/Velocity, and others systems.
 
+---
 
-### Utilities that I use:
+### Utilities that I use :
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;
@@ -47,3 +50,9 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/canva/canva-original.svg" title="Git" **alt="Git" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
+
+---
+
+### :1st_place_medal: My github stats :
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=yakonay&theme=tokyonight&hide_border=true&date_format=n%2Fj%5B%2FY%5D)](https://git.io/streak-stats)

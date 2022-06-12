@@ -29,8 +29,8 @@
 ---
 
 ### :man_technologist: Information about me :
-* I'm a Java Junior (maybe Middle) Developer.
-* I has writing plugins for Bukkit/BungeeCord/Velocity, and others systems.
+* I'm a Java Middle Developer.
+* I has writing plugins for Bukkit, BungeeCord, Velocity, and others systems.
 
 ---
 

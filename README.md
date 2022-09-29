@@ -50,9 +50,3 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/canva/canva-original.svg" title="Git" **alt="Git" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
-
----
-
-### :1st_place_medal: My github stats :
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=yakonay&theme=tokyonight&hide_border=true&date_format=n%2Fj%5B%2FY%5D)](https://git.io/streak-stats)

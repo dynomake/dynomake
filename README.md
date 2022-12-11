@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="450"/>
   
   <div id="badges">
-    <a href="https://vk.com/swiftyclown">
+    <a href="https://vk.com/suuft">
       <img src="https://img.shields.io/badge/VKontakte-blue?style=for-the-badge&logo=vk&logoColor=white" alt="VKontakte"/>
     </a>
     <a href="https://www.youtube.com/channel/UCVjp9ytLEhO4vZmDGjtR2tg">
@@ -11,7 +11,7 @@
     <a href="https://discord.gg/SWZ2cPGnBT">
       <img src="https://img.shields.io/badge/Discord-brown?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
     </a>
-      <a href="https://t.me/swiftysweet">
+      <a href="https://t.me/fuuft">
       <img src="https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
     </a>
   </div>

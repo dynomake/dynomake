@@ -1,6 +1,6 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="450"/>
-  
+  <h1>I'm suuft</h1>
   <div id="badges">
     <a href="https://vk.com/suuft">
       <img src="https://img.shields.io/badge/VKontakte-blue?style=for-the-badge&logo=vk&logoColor=white" alt="VKontakte"/>
@@ -17,20 +17,12 @@
   </div>
   
   <img src="https://komarev.com/ghpvc/?username=your-github-username&style=flat-square&color=blue" alt=""/>
-  <h1>
-  Hello $user!
-
-  </h1>
-</div>
-<div align="center">
-  <img src="https://media.giphy.com/media/6gYLzGYDrU4LlOxxnJ/giphy.gif" width="600"/>
 </div>
 
 ---
-
 ### :man_technologist: Information about me :
-* I'm a Java Middle Developer.
-* I has writing plugins for Bukkit, BungeeCord, Velocity, and others systems.
+* I'm a Java amost Intermidate Developer.
+* I has writing plugins for Bukkit, BungeeCord, Velocity, creating frameworks, and others systems.
 
 ---
 

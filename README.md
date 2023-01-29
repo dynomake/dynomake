@@ -26,7 +26,7 @@
   <a href="https://discord.gg/SWZ2cPGnBT">
   <img src="https://img.shields.io/badge/discord-blue?style=for-the-badge&logo=discord&logoColor=white" />
   </a>
-  <a href="https://www.instagram.com/redcute/">
+  <a href="https://www.instagram.com/suuftofficial/">
   <img src="https://img.shields.io/badge/Instagram-pink?style=for-the-badge&logo=instagram" />
   </a>
   <a href="https://www.vk.com/fraudcat/">

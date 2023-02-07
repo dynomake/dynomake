@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Hi everybody. I'm a redcute 🧀</h2>
+  <h2>Hi everybody. I'm a suuft 🧀</h2>
   I am a developer who deals with the Back-end, I am trying to start working with Front-end technologies and 
   I really love this job. In the future I want to get an internship and work in a very cool company, 
   and I also want my frameworks to be useful/
@@ -29,7 +29,7 @@
   <a href="https://www.instagram.com/suuftofficial/">
   <img src="https://img.shields.io/badge/Instagram-pink?style=for-the-badge&logo=instagram" />
   </a>
-  <a href="https://www.vk.com/fraudcat/">
+  <a href="https://www.vk.com/suuft/">
   <img src="https://img.shields.io/badge/vkontakte-orange?style=for-the-badge&logo=vk" />
   </a>
   

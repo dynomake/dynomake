@@ -14,8 +14,6 @@
   <img src="https://img.shields.io/badge/GIT-lightgreen?style=for-the-badge&logo=git" />
   <img src="https://img.shields.io/badge/GRADLE-lightyellow?style=for-the-badge&logo=gradle" />
   <img src="https://img.shields.io/badge/circleci-pink?style=for-the-badge&logo=circleci" />
-  <br/>
-  <img src="https://komarev.com/ghpvc/?username=suuft&style=flat-square&color=orange" alt=""/>
   
   ---
   

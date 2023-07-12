@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Hi everybody. I'm a suuft 🧀</h2>
+  <h2>Hi. I'm dynamicjuhani!</h2>
   I am a developer who deals with the Back-end, I am trying to start working with Front-end technologies and 
   I really love this job. In the future I want to get an internship and work in a very cool company, 
   and I also want my frameworks to be useful/

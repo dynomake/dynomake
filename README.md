@@ -1,7 +1,6 @@
 <div align="center">
   <h2>Hi. I'm dynamicjuhani!</h2>
-  I am a developer who deals with the Back-end, I am trying to start working with Front-end technologies and 
-  I really love this job. In the future I want to get an internship and work in a very cool company, 
+  I am software developer from Moskow/Russia. In the future I want to get an internship and work in a very cool company, 
   and I also want my frameworks to be useful/
   <br/><br/>
   These are technologies that I love and know how to work with 3>

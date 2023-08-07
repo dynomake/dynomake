@@ -25,13 +25,13 @@
   <a href="https://discord.gg/SWZ2cPGnBT">
   <img src="https://img.shields.io/badge/discord-green?style=for-the-badge&logo=discord&logoColor=white" />
   </a>
-  <a href="https://www.instagram.com/dynamicjuhani/">
+  <a href="https://www.instagram.com/dynomaker/">
   <img src="https://img.shields.io/badge/Instagram-pink?style=for-the-badge&logo=instagram" />
   </a>
-   <a href="https://t.me/dynamicjuhani/">
+   <a href="https://t.me/dynomake/">
   <img src="https://img.shields.io/badge/telegram-yellow?style=for-the-badge&logo=telegram" />
   </a>
-  <a href="https://www.vk.com/dynamicjuhani/">
+  <a href="https://www.vk.com/dynomake/">
   <img src="https://img.shields.io/badge/vkontakte-orange?style=for-the-badge&logo=vk" />
   </a>
   

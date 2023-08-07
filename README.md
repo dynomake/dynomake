@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Hi. I'm dynamicjuhani!</h2>
+  <h2>Hi. I'm dynomake!</h2>
   I am software developer from Moskow/Russia. In the future I want to get an internship and work in a very cool company, 
   and I also want my frameworks to be useful/
   <br/><br/>

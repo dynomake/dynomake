@@ -6,6 +6,7 @@
   These are technologies that I love and know how to work with 3>
   <br/><br/>
   <img src="https://img.shields.io/badge/java-orange?style=for-the-badge&logo=java" />
+  <img src="https://img.shields.io/badge/spring-yellow?style=for-the-badge&logo=spring" />
   <img src="https://img.shields.io/badge/python-pink?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/REDIS-lightblue?style=for-the-badge&logo=redis" />
   <img src="https://img.shields.io/badge/Maven-blue?style=for-the-badge&logo=apachemaven" />

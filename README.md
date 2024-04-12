@@ -1,6 +1,6 @@
 <div align="center">
   <h2>Hi. I'm dynomake!</h2>
-  I am software developer from Moskow/Russia. In the future I want to get an internship and work in a very cool company, 
+  I am software developer from Moscow/Russia. In the future I want to get an internship and work in a very cool company, 
   and I also want my frameworks to be useful/
   <br/><br/>
   These are technologies that I love and know how to work with 3>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="bg-gray-900" lang="EN">
+<html class="bg-black" lang="EN">
 
 <head>
     <meta charset="utf-8">
@@ -11,22 +11,48 @@
 </head>
 <body class="min-h-screen bg-black">
 <style>
-@media screen and (min-width: 640px) {
-  #aboutMe {
-    display: flex;
-  }
-}
+    @media screen and (min-width: 640px) {
+        #aboutMe {
+            display: flex;
+        }
+    }
+
+    .animated-background {
+        position: relative;
+        /*overflow:;*/
+    }
+
+    .moving-circle {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: radial-gradient(circle, rgb(255, 30, 255) 70%, rgba(128, 0, 128, 0) 70%);
+        border-radius: 20%;
+        pointer-events: none;
+        transition: all 1s ease-out;
+        z-index: -1;
+    }
 </style>
 <div>
     <div class="relative isolate px-6 pt-5 lg:px-8">
 
-        <div class="mx-auto max-w-2xl py-24 sm:py-36 lg:py-36">
-            <div>
-                <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">I'm doing backend for big projects</h1>
-                <h1 class="text-4xl font-bold tracking-tight text-purple-500 sm:text-6xl">and a little bit more..</h1>
-                <div class="mt-10 flex gap-x-6">
-                    <a href="https://t.me/dynomake" class="rounded-md bg-white px-20 py-2.5 text-m font-semibold text-black hover:bg-purple-500">Contact</a>
+<!--        по этому блоку должна быть анимация-->
+        <div class="mx-auto max-w-4xl py-24 sm:py-36 lg:py-36">
+<!--                <div class="mx-auto max-w-4xl py-24 sm:py-36 lg:py-36 animated-background" id="animatedBlock">-->
+                    <div class="moving-circle" id="movingCircle"></div>
+                    <div class="moving-circle" id="movingCircle2"></div>
+            <div class="moving-circle" id="movingCircle3"></div>
+                    <div class="moving-circle" id="movingCircle4"></div>
+
+            <!--                </div>-->
+
+                <div id="first-block-content">
+                    <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Professionally developing backend for large services for several years.</h1>
+                    <div class="mt-10 flex gap-x-6">
+                        <a href="https://t.me/dynomake" class="rounded-md bg-white px-20 py-2.5 text-m font-semibold text-black hover:bg-purple-500">Contact</a>
+                    </div>
                 </div>
+
             </div>
         </div>
 
@@ -34,6 +60,82 @@
 
 </div>
 <script>
+        const animatedBlock = document.getElementById('animatedBlock');
+        const circleFirst = document.getElementById('movingCircle');
+        const circleSecond = document.getElementById('movingCircle2');
+        const circleThird = document.getElementById('movingCircle3');
+        const circleFourts = document.getElementById('movingCircle4');
+
+        let pos = 0;
+        let posApply = 1
+
+        class Position {
+            static first = { x: 0, y: 0 };
+            static second = { x: getSizeWithMargin("first-block-content").width - 100, y: 0 };
+            static third = { x: getSizeWithMargin("first-block-content").width - 100, y: getSizeWithMargin("first-block-content").height };
+            static fourth = { x: 0, y: getSizeWithMargin("first-block-content").height };
+
+            static values = [Position.first, Position.second, Position.third, Position.fourth];
+
+            static byOrdinal(index) {
+                return Position.values[index];
+            }
+        }
+
+        let current = 0;
+
+        function resolveNext() {
+            current = (current + 1) % Position.values.length;
+            return Position.byOrdinal(current);
+        }
+
+        function next(n) {
+
+            return Position.byOrdinal((current + n) % Position.values.length);
+        }
+
+        function move() {
+
+            let pos = resolveNext()
+            circleFirst.style.marginLeft = pos.x + 'px';
+            circleFirst.style.marginTop = pos.y + 'px';
+
+            let spost = next(1)
+            circleSecond.style.marginLeft = spost.x + 'px';
+            circleSecond.style.marginTop = spost.y + 'px';
+
+            let tpost = next(2)
+            circleThird.style.marginLeft = tpost.x + 'px';
+            circleThird.style.marginTop = tpost.y + 'px';
+
+            let fpost = next(3)
+            circleFourts.style.marginLeft = fpost.x + 'px';
+            circleFourts.style.marginTop = fpost.y + 'px';
+        }
+
+        function animate() {
+            requestAnimationFrame(move);
+        }
+
+        function getSizeWithMargin(elementId) {
+            const element = document.getElementById(elementId);
+            const style = window.getComputedStyle(element);
+
+            return {
+                height: element.offsetHeight +
+                    parseFloat(style.marginTop) +
+                    parseFloat(style.marginBottom) - 50,
+                width: element.offsetWidth +
+                    parseFloat(style.marginLeft) +
+                    parseFloat(style.marginRight)
+            };
+        }
+
+        // first pos
+        animate();
+        setInterval(animate, 1020);
+
+        window.addEventListener('resize', animate);
 
 </script>
 </body>

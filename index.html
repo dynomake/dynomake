@@ -36,25 +36,28 @@
 <div>
     <div class="relative isolate px-6 pt-5 lg:px-8">
 
-<!--        по этому блоку должна быть анимация-->
         <div class="mx-auto max-w-4xl py-24 sm:py-36 lg:py-36">
-<!--                <div class="mx-auto max-w-4xl py-24 sm:py-36 lg:py-36 animated-background" id="animatedBlock">-->
-                    <div class="moving-circle" id="movingCircle"></div>
-                    <div class="moving-circle" id="movingCircle2"></div>
+            <div class="moving-circle" id="movingCircle"></div>
+            <div class="moving-circle" id="movingCircle2"></div>
             <div class="moving-circle" id="movingCircle3"></div>
-                    <div class="moving-circle" id="movingCircle4"></div>
+            <div class="moving-circle" id="movingCircle4"></div>
 
-            <!--                </div>-->
-
-                <div id="first-block-content">
-                    <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Professionally developing backend for large services for several years.</h1>
-                    <div class="mt-10 flex gap-x-6">
-                        <a href="https://t.me/dynomake" class="rounded-md bg-white px-20 py-2.5 text-m font-semibold text-black hover:bg-purple-500">Contact</a>
-                    </div>
+            <div id="first-block-content">
+                <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Professionally developing backend for large services for several years.</h1>
+                <div class="mt-10 flex gap-x-6">
+                    <a href="https://t.me/dynomake" class="rounded-md bg-white px-20 py-2.5 text-m font-semibold text-black hover:bg-purple-500">Contact</a>
                 </div>
+            </div>
 
             </div>
+
+        <div class="mx-auto max-w-4xl py-24 sm:py-36 lg:py-36">
+                <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+                    <span class="text-4xl font-bold tracking-tight text-purple-500 sm:text-6xl">tasks</span>.add(<span class="text-4xl font-bold tracking-tight text-orange-500 sm:text-6xl">"write next parts of website"</span>)
+                </h1>
         </div>
+        </div>
+
 
     </div>
 
@@ -74,7 +77,6 @@
             static second = { x: getSizeWithMargin("first-block-content").width - 100, y: 0 };
             static third = { x: getSizeWithMargin("first-block-content").width - 100, y: getSizeWithMargin("first-block-content").height };
             static fourth = { x: 0, y: getSizeWithMargin("first-block-content").height };
-
             static values = [Position.first, Position.second, Position.third, Position.fourth];
 
             static byOrdinal(index) {
